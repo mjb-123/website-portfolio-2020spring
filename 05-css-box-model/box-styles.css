@@ -1,0 +1,49 @@
+h1, p {
+  background-color: #DDE0E3;    /* Light gray */
+}
+
+em, strong {
+  background-color: #B2D6FF;
+  display: inline;          /* This is the default for em and strong */
+}
+h1 {
+  padding: 20px 10px;  /* Vetical Horizontal */
+  padding: 20px 0 20px 10px;  */ Top Right Bottom Left */
+  }
+  h1 {
+    padding: 50px;
+    border: 1px solid #5D6063
+  }
+  P {
+    padding: 20px 0 20px 1opx;
+    margin-bottom: 50px;    /* Add this */
+  }
+  strong {
+    margin: 50px
+  }
+  p {
+    padding: 20px 0 20px 10px;
+
+    margin-top: 25px;
+    margin-bottom: 50px
+  }
+<p>Paragraphs are blocks, too. <em>However</em>, &lt;em&gt; and &lt;strong&gt;
+elements are not. They are <strong>inline</strong> elements. </p>
+
+<div style='padding-top: 1px'></div>  <!-- Add this -->
+
+<p>Block elements define the flow of the HTML document, while inline elements
+do not.</p>
+
+div {
+  color: #FFF
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px
+  text-allign: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px;
+  box-sizing: border-box;  /* Add this */
+}
