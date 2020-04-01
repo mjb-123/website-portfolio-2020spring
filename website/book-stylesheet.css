@@ -1,7 +1,7 @@
 body {
   color: #000;
   background-color: #white;
-  font-size: 18px;
+  font-size: 19px;
   margin: 20px;
   padding: 50px;
 }
@@ -29,9 +29,6 @@ div {
   padding: 20px;
   text-align: center;
 }
-nav {
-  text-align: center;
-}
-div {
-  padding: 0px;
+.row {
+  display: flex;
 }
